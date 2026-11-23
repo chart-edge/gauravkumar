@@ -103,7 +103,7 @@ body {
 
 .hero-inner {
   position: relative;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
@@ -208,7 +208,7 @@ body::before {
 }
 
 .nav-inner {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
@@ -243,13 +243,13 @@ body::before {
 
 /* ── Page shell ─────────────────────────────────────────────────────────── */
 .page-body {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding-left: max(16px, env(safe-area-inset-left, 0px));
-  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-left: max(32px, env(safe-area-inset-left, 0px));
+  padding-right: max(32px, env(safe-area-inset-right, 0px));
   padding-block: 2rem 3rem;
   display: grid;
-  grid-template-columns: 220px 1fr;
+  grid-template-columns: 260px 1fr;
   gap: 0 3rem;
 }
 
@@ -851,7 +851,7 @@ footer {
 
 <!-- Portfolio -->
 <div class="page-body" style="padding-block:0 3rem">
-  <div style="grid-column:1/-1" class="section" id="portfolio">
+  <div style="grid-column:1/-1;max-width:1200px;margin:0 auto;padding-left:max(32px, env(safe-area-inset-left, 0px));padding-right:max(32px, env(safe-area-inset-right, 0px));" class="section" id="portfolio">
     <h2 class="section-label">Portfolio</h2>
     <div class="port-grid">
         <div class="port-card" onclick="openLightbox(this)">
